@@ -39,6 +39,7 @@ A full stack web service designed to collect posts from friends for a personal f
     - [Add a post](https://localhost/add): Web form to add an entry to the friendship book
     - [REST endpoint overview](https://localhost/api/swagger-ui.html): Overview of all REST endpoints available
     - [Generate Bye Bye Book](https://localhost/api/generate): Generate a friendship book and retrieve a `*.pdf` document
+* Please note that the web server uses self-signed SSL certificates. So the browser will warn you about a "potential security risk ahead". In a production scenario, you would need to replace those certificates of course.
 
 ## License
 * AGPL-3.0-or-later
