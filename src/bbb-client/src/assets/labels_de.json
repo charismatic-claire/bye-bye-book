@@ -1,0 +1,68 @@
+{
+    "DISCLAIMER": "Achtung: Dein Eintrag wird erst versandt, wenn du den grünen Knopf mit der Beschriftung 'Eintrag absenden' ganz am Ende des Formulars gedrückt hast. Zusätzlich erscheint eine entsprechende Benachrichtigung.",
+    "FROM_NAME": {
+        "HEADING": "Name",
+        "HELP": "Bitte (Spitz-) Namen eingeben, z.B. 'Jon Doe'"
+    },
+    "FROM_EMAIL": {
+        "HEADING": "Kontakt",
+        "HELP": "Bitte korrekte Email-Adresse eingeben, über die ich dir die Adresse des Reiseblogs senden kann, z.B. 'jon.doe@gmail.com'"
+    },
+    "TO_NAME": {
+        "HEADING": "Überschrift/ Thema dieses Eintrags",
+        "HELP": "Über wen möchtest du schreiben?",
+        "SUBJECTS": [ "Person 1", "Person 2", "Person 1 & 2" ]
+    },
+    "IMAGE": {
+        "HEADING": "Profilbilder",
+        "HELP": "Lade bis zu 4 Bilder, die du mit mir teilen möchtest, hoch. Um mehrere Bilder hochzuladen, musst du diese mit einem Mal auswählen können. Kopiere sie daher am besten vorher alle in den selben Ordner. Maximale Größe pro Bild sind 4 MB. Wenn du keine Bilder hast oder hochladen möchtest, kann dieses Feld auch frei gelassen werden.",
+        "PLACEHOLDER": "Durchsuchen oder 'Drag & Drop'",
+        "DROP_PLACEHOLDER": "Bilder per 'Drag & Drop' hochladen",
+        "BROWSE": "Durchsuchen"
+    },
+    "STORY": {
+        "PLACEHOLDER": "Schreib deine Anekdote bitte hierhin und spare dabei nicht an Worten. Soviel Zeit muss sein!",
+        "WANNA_DO_NEVER_DID": {
+            "ID": "WANNA_DO_NEVER_DID",
+            "HEADING": "Bisher verpasst",
+            "HELP": "Gibt es etwas, dass wir schon immer mal hätten zusammen machen sollen, es letztendlich aber doch nie getan haben oder definitiv tun sollten, wenn ich wieder komme? Erzähl mir davon."
+        },
+        "SURPRISE": {
+            "ID": "SURPRISE",
+            "HEADING": "Überraschende Fakten",
+            "HELP": "Überrasche mich! Erzähl mir etwas Spannendes, was ich noch nicht weiß."
+        },
+        "LIKED": {
+            "ID": "LIKED",
+            "HEADING": "Das Beste",
+            "HELP": "Gibt es Dinge, die du besonders an mir magst? Es können ruhig viele sein."
+        },
+        "DISLIKED": {
+            "ID": "DISLIKED",
+            "HEADING": "Das Letzte",
+            "HELP": "Bestimmt erinnerst du dich auch an gemeinsame Erlebnisse die nicht idealtypisch nach Plan verlaufen sind. Was müssen wir nicht nochmal machen? Oder anders machen? Oder besser?"
+        },
+        "WILL_MISS": {
+            "ID": "WILL_MISS",
+            "HEADING": "Vermissen",
+            "HELP": "Seien wir ehrlich, du wirst mich vermissen, wenn ich weg bin. Was wirst du am meisten vermissen?"
+        },
+        "SECRET_TO_SHARE": {
+            "ID": "SECRET_TO_SHARE",
+            "HEADING": "Geheimnis",
+            "HELP": "Hast du ein Geheimnis, das du schon immer mit mir teilen wolltest, bisher jedoch nie die Gelegenheit gefunden hast, das zu tun? Besser spät als nie, dann mache es schnell jetzt noch!"
+        },
+        "GOODBYE": {
+            "ID": "GOODBYE",
+            "HEADING": "Letzte Worte",
+            "HELP": "Bald bin ich eine Weile weg. Willst du mir noch etwas mit auf den Weg geben?"
+        }
+    },
+    "GENERAL_TERMS_CONDITIONS": {
+        "HELP": "Ich habe die Hinweise zur Datenverarbeitung gelesen und bin einverstanden.",
+        "POPOVER_TITLE": "Zweck der Datenverarbeitung",
+        "POPOVER_BODY": "Deine Daten werden vertraulich behandelt und nicht im Internet verkauft. Die von dir eingegebenen Daten werden zu einem 'Bye Bye Book' verarbeitet und von mir mit auf die Reise genommen. Gehe also davon aus, dass ggf. weitere meiner Freunde und Freundinnen zu Gesicht bekommen, was du hier gerade hochladen willst. Alles klar? Dann kanns ja los gehen!"
+    },
+    "SUBMIT": "Eintrag absenden",
+    "SUCCESS": "Eintrag erfolgreich versandt!"
+}

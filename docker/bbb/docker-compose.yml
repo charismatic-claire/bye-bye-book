@@ -1,0 +1,43 @@
+version: '3'
+
+services:
+    db:
+        image: postgres
+        env_file:
+            - ./db/db.env
+        volumes:
+            - db_data:/var/lib/postgresql/data
+        ports:
+            - 5432:5432
+            
+    server:
+        build: ./server
+        volumes:
+            - ./server/build:/usr/bin/server
+            - server_data:/var/lib/server/files
+        ports:
+            - 8081:8081
+        depends_on:
+            - db
+
+    client:
+        build: ./client
+        volumes:
+            - ./client/build/:/app
+        ports:
+            - 8080:8080
+            
+    proxy:
+        build: ./proxy
+        volumes:
+            - ./proxy/certs:/etc/ssl/private
+        ports:
+            - 80:80    
+            - 443:443  
+        depends_on:
+            - client
+            - server 
+                                
+volumes:
+    db_data:
+    server_data:

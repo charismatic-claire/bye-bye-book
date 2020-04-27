@@ -1,0 +1,68 @@
+{
+    "DISCLAIMER": "Please note: Your post will only be stored if you click the green 'Submit' button at the end of this form. If you do so, you will receive a success notification.",
+    "FROM_NAME": {
+        "HEADING": "Name",
+        "HELP": "Please enter your (nick-) name, i.e. 'Jon Doe'"
+    },
+    "FROM_EMAIL": {
+        "HEADING": "E-Mail",
+        "HELP": "Please enter a valid e-mail address so I can keep in touch with you, i.e. 'jon.doe@gmail.com'"
+    },
+    "TO_NAME": {
+        "HEADING": "Subject",
+        "HELP": "To whom you are addressing this post?",
+        "SUBJECTS": [ "Person 1", "Person 2", "Person 1 & 2" ]
+    },
+    "IMAGE": {
+        "HEADING": "Pictures",
+        "HELP": "Upload up to 4 images you want to share. To upload more than one image, you have to select them all at once. This can be achieved by copying all files in the same folder before. Maximum file size is 4MB per image. Skip this field if you choose to not share any images.",
+        "PLACEHOLDER": "Browse or 'Drag & Drop'",
+        "DROP_PLACEHOLDER": "Upload images via 'Drag & Drop'",
+        "BROWSE": "Browse"
+    },
+    "STORY": {
+        "PLACEHOLDER": "Enter your story here as detailed as you can, because what you have to say matters!",
+        "WANNA_DO_NEVER_DID": {
+            "ID": "WANNA_DO_NEVER_DID",
+            "HEADING": "Wanna do but never did",
+            "HELP": "Is there something you always wanted to do with me, but never did? Now is the time to tell me all about it."
+        },
+        "SURPRISE": {
+            "ID": "SURPRISE",
+            "HEADING": "Surprising facts",
+            "HELP": "Surprise me and tell me something about you I do not already know!"
+        },
+        "LIKED": {
+            "ID": "LIKED",
+            "HEADING": "The best",
+            "HELP": "What do you like the most about me?"
+        },
+        "DISLIKED": {
+            "ID": "DISLIKED",
+            "HEADING": "The worst",
+            "HELP": "Sometimes, things do not play out exactly as you wanted them to. Are there experiences we shared we do not have to live through again? Tell me about them!"
+        },
+        "WILL_MISS": {
+            "ID": "WILL_MISS",
+            "HEADING": "Missing the most",
+            "HELP": "Let's be honest, you will miss me when I'm gone, right? What is it you will miss the most?"
+        },
+        "SECRET_TO_SHARE": {
+            "ID": "SECRET_TO_SHARE",
+            "HEADING": "Secret",
+            "HELP": "Is there a secret you always wanted to share with me but never found the time to do so? Well, now is the time, go ahead!"
+        },
+        "GOODBYE": {
+            "ID": "GOODBYE",
+            "HEADING": "Last words",
+            "HELP": "Soon I'll be gone for a while. Any last words?"
+        }
+    },
+    "GENERAL_TERMS_CONDITIONS": {
+        "HELP": "I read the terms and conditions and agree that my data will be stored and processed as described.",
+        "POPOVER_TITLE": "Terms & Conditions",
+        "POPOVER_BODY": "Your data will be used with care and not be sold online. The information you entered will be used to automatically generate a 'Bye Bye Book', which will go with me when I start my journey. Expect that some of my and your friends will be able to see and read what you are about to share with me. Alright? So let's do this!"
+    },
+    "SUBMIT": "Submit",
+    "SUCCESS": "Successfully submitted post!"
+}
